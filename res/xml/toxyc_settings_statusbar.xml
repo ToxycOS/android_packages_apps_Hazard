@@ -46,4 +46,12 @@
          android:summary="%s"
          android:defaultValue="0"/>
 
+    <com.toxyc.settings.preferences.SystemSettingListPreference
+         android:key="vowifi_icon_style"
+         android:title="@string/vowifi_icon_style_title"
+         android:entries="@array/vowifi_icon_style_entries"
+         android:entryValues="@array/vowifi_icon_style_values"
+         android:summary="%s"
+         android:defaultValue="0"/>
+
 </PreferenceScreen>
